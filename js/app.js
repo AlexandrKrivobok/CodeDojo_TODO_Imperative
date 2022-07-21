@@ -76,7 +76,7 @@ const main = (document => {
         const listItem = this.parentNode;
         todoList.removeChild(listItem);
     }
-    
+
     const todoForm = document.getElementById('todo-form');
     const addInput = document.getElementById('add-input');
     const todoList = document.getElementById('todo-list');
